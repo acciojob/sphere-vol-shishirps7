@@ -9,7 +9,7 @@ function volume_sphere(e) {
         return;
     }
 
-    let pi = 3.14;
+    let pi = 3.14159;
     let z = ((4/3) * pi * x * x * x);
     volume.value = z.toFixed(4);
 }
